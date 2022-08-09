@@ -55,7 +55,7 @@ footer{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: space-evenly;
-    align-items: space-evenly; /*no me estaría funcionando justify ni align, ya probé con content e items*/
+    align-items: space-evenly; 
 }
 
 .letrasLink{
@@ -106,7 +106,6 @@ footer{
 
 
 .aboutMe{
-    display: block;
     padding: 3px 3px 3px 3px;
     margin: 5px 5px 5px 5px;
     color: darkblue;
@@ -120,4 +119,9 @@ footer{
     display: block;
     color: darkblue;
     font-size: larger;
+}
+
+.gradiente{
+    background: linear-gradient(to left, black, white);
+    color: green;
 }
